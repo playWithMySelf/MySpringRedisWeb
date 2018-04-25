@@ -45,11 +45,11 @@ public class RedisCacheConfig extends CachingConfigurerSupport {
         return mJedisConnectionFactory;
     }
 
-    public RedisTemplate<String, String> redisTemplate(RedisConnectionFactory cf) {
+    public RedisTemplate<String, String> redisTemplate() {
         return mRedisTemplate;
     }
 
-    public CacheManager cacheManager(RedisTemplate<?, ?> redisTemplate) {
+    public CacheManager cacheManager() {
         return mRedisCacheManager;
     }
 

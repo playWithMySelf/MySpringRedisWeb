@@ -11,6 +11,7 @@ import javax.servlet.http.HttpSession;
 
 import com.founder.bussiness.Base.BaseAction;
 import com.founder.bussiness.login.service.impl.LoginService;
+import com.founder.config.RedisCacheConfig;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

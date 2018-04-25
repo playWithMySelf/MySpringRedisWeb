@@ -26,7 +26,7 @@ import static org.junit.Assert.*;
 @RunWith(SpringJUnit4ClassRunner.class)
 //告诉junit spring的配置文件
 @ContextConfiguration({"classpath:applicationContext.xml","classpath:spring-mvc.xml",
-    "classpath:spring-redis.xml","classpath:sql-map-config.xml"})
+    "classpath:spring-redis.xml"})
 public class LoginServiceTest {
 
     @Autowired
